@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Karmilkar | Full Stack Developer & Cloud Enthusiast</title>
+  <meta name="description" content="Portfolio of Gaurav Karmilkar — Computer Science Engineering student, Full Stack Developer, UI/UX Designer, and Cloud & DevOps Enthusiast. AWS Certified | Google Student Ambassador.">
+  <meta name="keywords" content="Gaurav Karmilkar, Full Stack Developer, Web Developer, UI/UX Designer, Cloud Computing, AWS, Portfolio">
+  <meta name="author" content="Gaurav Karmilkar">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        Gaurav<span class="dot"></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Credentials</a>
+        <a href="#contact" class="nav-cta">Let's Talk</a>
+      </div>
+
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+      <canvas class="hero-canvas" id="heroCanvas"></canvas>
+      <div class="hero-gradient hero-gradient-1"></div>
+      <div class="hero-gradient hero-gradient-2"></div>
+
+      <div class="container">
+        <!-- Left Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            Open to Opportunities
+          </div>
+
+          <h1 class="hero-name">
+            Gaurav<br>
+            <span class="gradient-text">Karmilkar</span>
+          </h1>
+
+          <div class="hero-title-wrapper">
+            I'm a <span class="typed-text"></span><span class="cursor"></span>
+          </div>
+
+          <p class="hero-description">
+            Passionate CS Engineering student building innovative solutions with modern web technologies, cloud infrastructure, and creative design thinking.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">
+              View Projects <i class="ri-arrow-right-line"></i>
+            </a>
+            <a href="#contact" class="btn-secondary">
+              <i class="ri-mail-line"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-value" data-count="3" data-suffix="+">0</div>
+              <div class="hero-stat-label">Projects</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value" data-count="3">0</div>
+              <div class="hero-stat-label">Certifications</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value" data-count="8.2" data-suffix="">0</div>
+              <div class="hero-stat-label">CGPA</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual -->
+        <div class="hero-visual">
+          <div class="hero-visual-wrapper">
+            <div class="hero-visual-ring"></div>
+            <div class="hero-visual-ring-2"></div>
+            <div class="hero-visual-center">
+              <span class="initials">GK</span>
+            </div>
+
+            <!-- Floating badges around the visual -->
+            <div class="hero-float-badge">
+              <i class="ri-aws-fill"></i> AWS Certified
+            </div>
+            <div class="hero-float-badge">
+              <i class="ri-google-fill"></i> GSA 2026
+            </div>
+            <div class="hero-float-badge">
+              <i class="ri-code-s-slash-fill"></i> Full Stack
+            </div>
+            <div class="hero-float-badge">
+              <i class="ri-cloud-fill"></i> Cloud
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+      <div class="container">
+        <!-- Left - Image -->
+        <div class="about-image-wrapper reveal">
+          <div class="about-image">
+            <img src="assets/images/about-bg.png" alt="About Gaurav Karmilkar">
+          </div>
+          <div class="about-image-accent"></div>
+          <div class="about-image-dot-grid"></div>
+        </div>
+
+        <!-- Right - Text -->
+        <div class="about-text">
+          <span class="section-label reveal">About Me</span>
+          <h2 class="section-title reveal reveal-delay-1">Turning Ideas Into<br><span class="accent">Digital Reality</span></h2>
+          <p class="about-description reveal reveal-delay-2">
+            Motivated and enthusiastic Computer Science Engineering student at Prof. Ram Meghe Institute of Technology & Research, Amravati. With a strong foundation in Python, Java, Web Development, and Cloud Computing, I'm an active Google Student Ambassador and AWS Student Builder with experience in project development, community engagement, and hackathons. Passionate about building innovative solutions and contributing to real-world impact.
+          </p>
+
+          <div class="about-details reveal reveal-delay-3">
+            <div class="about-detail">
+              <div class="about-detail-icon"><i class="ri-graduation-cap-fill"></i></div>
+              <div class="about-detail-text">
+                <label>Education</label>
+                <span>B.Tech — CSE (2028)</span>
+              </div>
+            </div>
+            <div class="about-detail">
+              <div class="about-detail-icon"><i class="ri-map-pin-fill"></i></div>
+              <div class="about-detail-text">
+                <label>Location</label>
+                <span>Amravati, Maharashtra</span>
+              </div>
+            </div>
+            <div class="about-detail">
+              <div class="about-detail-icon"><i class="ri-mail-fill"></i></div>
+              <div class="about-detail-text">
+                <label>Email</label>
+                <span>gauravkarmilkar007@gmail.com</span>
+              </div>
+            </div>
+            <div class="about-detail">
+              <div class="about-detail-icon"><i class="ri-github-fill"></i></div>
+              <div class="about-detail-text">
+                <label>GitHub</label>
+                <span>gaurav-karmilkar</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats reveal reveal-delay-4">
+            <div class="about-stat-card">
+              <div class="about-stat-value" data-count="3" data-suffix="+">0</div>
+              <div class="about-stat-label">Projects</div>
+            </div>
+            <div class="about-stat-card">
+              <div class="about-stat-value" data-count="3">0</div>
+              <div class="about-stat-label">Certifications</div>
+            </div>
+            <div class="about-stat-card">
+              <div class="about-stat-value" data-count="8.2">0</div>
+              <div class="about-stat-label">CGPA</div>
+            </div>
+            <div class="about-stat-card">
+              <div class="about-stat-value" data-count="50" data-suffix="">0</div>
+              <div class="about-stat-label">Top Hackathon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE / TIMELINE ==================== -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label reveal">My Journey</span>
+          <h2 class="section-title reveal reveal-delay-1">Education & <span class="accent">Experience</span></h2>
+          <p class="section-subtitle reveal reveal-delay-2">A timeline of my academic journey and community involvement.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 — 2028</span>
+              <div class="timeline-card">
+                <h3>Bachelor of Technology (B.Tech)</h3>
+                <p class="institution">Prof. Ram Meghe Institute of Technology & Research</p>
+                <p>Computer Science Engineering — CGPA: 8.2/10</p>
+                <span class="badge">Currently Pursuing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026</span>
+              <div class="timeline-card">
+                <h3>Google Student Ambassador</h3>
+                <p class="institution">Google</p>
+                <p>Promoting technology learning, building student communities, and collaborating on initiatives that create impact.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 — Present</span>
+              <div class="timeline-card">
+                <h3>AWS Student Builder</h3>
+                <p class="institution">Amazon Web Services</p>
+                <p>Engaged in AWS learning programs, workshops, and cloud technology initiatives to build and scale solutions.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025</span>
+              <div class="timeline-card">
+                <h3>Designer — AWS Community Day Amravati</h3>
+                <p class="institution">AWS Community</p>
+                <p>Responsible for designing promotional content, creatives, and branding materials for AWS Community Day Amravati.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2022</span>
+              <div class="timeline-card">
+                <h3>Higher Secondary Education (Class XII)</h3>
+                <p class="institution">Science Stream</p>
+                <p>Percentage: 84%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2020</span>
+              <div class="timeline-card">
+                <h3>Secondary Education (Class X)</h3>
+                <p class="institution">School Board</p>
+                <p>Percentage: 95%</p>
+                <span class="badge">Distinction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label reveal">What I Know</span>
+          <h2 class="section-title reveal reveal-delay-1">Technical <span class="accent">Skills</span></h2>
+          <p class="section-subtitle reveal reveal-delay-2">Technologies and tools I work with to build impactful solutions.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category reveal">
+            <div class="skill-category-icon">
+              <i class="ri-code-s-slash-fill"></i>
+            </div>
+            <h3>Programming</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-item-name">Python</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">Java</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">JavaScript</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="78"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category reveal reveal-delay-1">
+            <div class="skill-category-icon">
+              <i class="ri-layout-4-fill"></i>
+            </div>
+            <h3>Web Development</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-item-name">HTML5</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">CSS3</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">Responsive Design</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud & DevOps -->
+          <div class="skill-category reveal reveal-delay-2">
+            <div class="skill-category-icon">
+              <i class="ri-cloud-fill"></i>
+            </div>
+            <h3>Cloud & DevOps</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-item-name">AWS Services</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">Git & GitHub</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="82"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">Cloud Architecture</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Soft Skills -->
+          <div class="skill-category reveal reveal-delay-3">
+            <div class="skill-category-icon">
+              <i class="ri-tools-fill"></i>
+            </div>
+            <h3>Tools & Platforms</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-item-name">VS Code</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">Canva</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-item-name">Google Workspace</span>
+                <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label reveal">My Work</span>
+          <h2 class="section-title reveal reveal-delay-1">Featured <span class="accent">Projects</span></h2>
+          <p class="section-subtitle reveal reveal-delay-2">Innovative solutions I've built to solve real-world problems.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card reveal">
+            <div class="project-image">
+              <img src="assets/images/project-placewise.png" alt="PlaceWise Platform">
+              <div class="project-image-overlay">
+                <a href="https://github.com/gaurav-karmilkar" target="_blank" class="project-link-btn">
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-number">PROJECT 01</span>
+              <h3>PlaceWise</h3>
+              <p>A placement preparation platform helping students access aptitude materials, interview resources, coding practice, and placement updates. Also allows officers to manage content and training materials efficiently.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card reveal reveal-delay-1">
+            <div class="project-image">
+              <img src="assets/images/project-medisarthi.png" alt="MediSarthi Platform">
+              <div class="project-image-overlay">
+                <a href="https://github.com/gaurav-karmilkar" target="_blank" class="project-link-btn">
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-number">PROJECT 02</span>
+              <h3>MediSarthi</h3>
+              <p>A healthcare-focused platform providing users with easy access to medical information and healthcare-related services. Bridges the gap between users and essential healthcare resources through a simple interface.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Healthcare</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card reveal reveal-delay-2">
+            <div class="project-image">
+              <img src="assets/images/project-academic.png" alt="Academic Rescue Platform">
+              <div class="project-image-overlay">
+                <a href="https://github.com/gaurav-karmilkar" target="_blank" class="project-link-btn">
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-number">PROJECT 03</span>
+              <h3>Academic Rescue</h3>
+              <p>An academic assistance platform helping students access study materials, resources, and learning support. Designed to improve academic performance with organized and structured resources.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Education</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS SECTION ==================== -->
+    <section class="certifications" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label reveal">Credentials</span>
+          <h2 class="section-title reveal reveal-delay-1">Certifications & <span class="accent">Achievements</span></h2>
+          <p class="section-subtitle reveal reveal-delay-2">Recognized certifications and accomplishments in tech and cloud.</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card reveal">
+            <div class="cert-icon">
+              <i class="ri-cloud-fill"></i>
+            </div>
+            <div class="cert-info">
+              <h3>AWS Certified Cloud Practitioner</h3>
+              <span class="cert-issuer">Amazon Web Services</span>
+              <p>Foundational understanding of AWS Cloud services, architecture, and billing & pricing models.</p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card reveal reveal-delay-1">
+            <div class="cert-icon">
+              <i class="ri-google-fill"></i>
+            </div>
+            <div class="cert-info">
+              <h3>Google Student Ambassador 2026</h3>
+              <span class="cert-issuer">Google</span>
+              <p>Selected as a campus ambassador to promote Google's developer ecosystem and foster student communities.</p>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card reveal reveal-delay-2">
+            <div class="cert-icon">
+              <i class="ri-server-fill"></i>
+            </div>
+            <div class="cert-info">
+              <h3>AWS Student Builder</h3>
+              <span class="cert-issuer">Amazon Web Services</span>
+              <p>Active participant in AWS learning programs, workshops, and cloud technology initiatives.</p>
+            </div>
+          </div>
+
+          <!-- Achievement -->
+          <div class="cert-card reveal reveal-delay-3">
+            <div class="cert-icon">
+              <i class="ri-trophy-fill"></i>
+            </div>
+            <div class="cert-info">
+              <h3>Top 50 Hackathon Finalist</h3>
+              <span class="cert-issuer">National Level</span>
+              <p>Recognized as Top 50 Finalist and Winner in competitive hackathon challenges and innovation programs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <!-- Left - Info -->
+        <div class="contact-info">
+          <span class="section-label reveal">Get in Touch</span>
+          <h2 class="section-title reveal reveal-delay-1">Let's Work<br><span class="accent">Together</span></h2>
+          <p class="section-subtitle reveal reveal-delay-2">
+            Have a project in mind or want to collaborate? Feel free to reach out. I'm always excited to discuss new ideas and opportunities.
+          </p>
+
+          <div class="contact-methods reveal reveal-delay-3">
+            <a href="mailto:gauravkarmilkar007@gmail.com" class="contact-method">
+              <div class="contact-method-icon"><i class="ri-mail-fill"></i></div>
+              <div class="contact-method-text">
+                <label>Email</label>
+                <span>gauravkarmilkar007@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+918007426460" class="contact-method">
+              <div class="contact-method-icon"><i class="ri-phone-fill"></i></div>
+              <div class="contact-method-text">
+                <label>Phone</label>
+                <span>+91 8007426460</span>
+              </div>
+            </a>
+
+            <div class="contact-method">
+              <div class="contact-method-icon"><i class="ri-map-pin-fill"></i></div>
+              <div class="contact-method-text">
+                <label>Location</label>
+                <span>Amravati, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials reveal reveal-delay-4">
+            <a href="https://github.com/gaurav-karmilkar" target="_blank" class="social-link" title="GitHub">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://linkedin.com/in/gaurav-karmilkar-60485b341" target="_blank" class="social-link" title="LinkedIn">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="mailto:gauravkarmilkar007@gmail.com" class="social-link" title="Email">
+              <i class="ri-mail-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right - Form -->
+        <div class="contact-form-wrapper reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="What's this about?">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">
+              <i class="ri-send-plane-fill"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <span class="footer-logo">Gaurav<span class="dot"></span></span>
+        <span class="footer-copy">© 2025 All rights reserved.</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/gaurav-karmilkar" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
